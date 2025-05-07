@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEU Gallery</title>
+    <link rel="stylesheet" href="./CSS/gallry_style.css">
+    <script defer src="./javascript/gallery_js.js"></script>
+</head>
+<body>
+    <header>
+        <h1>GEU Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="showPhotos">Photos</a></li>
+                <li><a href="#" id="showVideos">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="photos" class="gallery hidden">
+            <h2>Photos</h2>
+            <figure>
+                <img src="./img_src/HOME IMG.jpg" alt="Photo 1">
+                <figcaption>Photo 1 Description</figcaption>
+            </figure>
+            <figure>
+                <img src="./img_src/IMG1.JPG" alt="Photo 2">
+                <figcaption>Photo 2 Description</figcaption>
+            </figure>
+            <figure>
+                <img src="./img_src/IMG2.JPG" alt="Photo 3">
+                <figcaption>Photo 3 Description</figcaption>
+            </figure>
+            <!-- Add more photos as needed -->
+        </section>
+        <section id="videos" class="gallery hidden">
+            <h2>Videos</h2>
+            <figure>
+                <video controls>
+                    <source src="./img_src/videos/WhatsApp Video 2024-05-19 at 3.11.47 PM.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <figcaption>Video 1 Description</figcaption>
+            </figure>
+            <figure>
+                <video controls>
+                    <source src="./img_src/videos/WhatsApp Video 2024-05-19 at 3.11.47 PM.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <figcaption>Video 2 Description</figcaption>
+            </figure>
+            <figure>
+                <video controls>
+                    <source src="videos/video3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <figcaption>Video 3 Description</figcaption>
+            </figure>
+            <!-- Add more videos as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Media Gallery</p>
+    </footer>
+</body>
+</html>
